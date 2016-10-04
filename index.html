@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="description" content="My Parse App">
+	<meta name="viewport" content="width=device-width">
+	<script src="lib/SendBird.min.js">
+	</script>
+	<script type="text/javascript" src="js/FileHandler.js"></script>
+	<script type="text/javascript" src="js/chat.js"></script>
+  </head>
+	<body>
+	  	<div id="channels">
+		<button onclick="connectToGen()">General</button>
+		<button onclick="connectTogPlan()">Guest Planning</button>
+		<button onclick="connectTovPlan()">Venue Planning</button>
+		</div>
+		<div id="messages"></div>
+		<div id=sendBox>
+		<input type="textarea" placeholder="Enter message here!" id="message">
+		<button onclick="send()">Send</button>
+		</div>
+	</body>
+</html>
+
+
+
+
+<!-- Import SendBird Libraries. -->
